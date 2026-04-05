@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+:root {
+  --page-bg: #0d0c0d;
+  --page-bg-deep: #171119;
+  --panel-border: rgba(93, 26, 186, 0.28);
+  --text-strong: #f8f5fc;
+  --text-soft: #c5b9d3;
+  --accent: #5d1aba;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  color-scheme: dark;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(93, 26, 186, 0.32), transparent 24%),
+    radial-gradient(circle at 82% 12%, rgba(248, 245, 252, 0.08), transparent 20%),
+    linear-gradient(180deg, var(--page-bg) 0%, var(--page-bg-deep) 100%);
+  color: var(--text-strong);
+  font-family: "Segoe UI Variable Text", "Aptos", "Trebuchet MS", sans-serif;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(248, 245, 252, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(248, 245, 252, 0.04) 1px, transparent 1px);
+  background-size: 72px 72px;
+  mask-image: radial-gradient(circle at center, black 35%, transparent 82%);
+  opacity: 0.3;
+}
+
+a {
+  transition:
+    color 160ms ease,
+    border-color 160ms ease,
+    background-color 160ms ease,
+    transform 160ms ease;
+}
+
+::selection {
+  background: rgba(93, 26, 186, 0.45);
+  color: var(--text-strong);
+}
+
+.display-font {
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
+}
+
+.glass-panel {
+  background: linear-gradient(180deg, rgba(26, 20, 31, 0.92), rgba(15, 12, 15, 0.84));
+  border: 1px solid var(--panel-border);
+  box-shadow:
+    0 32px 80px rgba(5, 3, 7, 0.45),
+    inset 0 1px 0 rgba(248, 245, 252, 0.04);
+  backdrop-filter: blur(18px);
+}
+
+.section-label {
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+}
+
+.soft-text {
+  color: var(--text-soft);
+}

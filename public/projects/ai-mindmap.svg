@@ -1,0 +1,22 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#0D0C0D"/>
+  <rect x="80" y="80" width="1440" height="740" rx="36" fill="#171119" stroke="#2F1A49"/>
+  <circle cx="354" cy="451" r="102" fill="#5D1ABA"/>
+  <circle cx="354" cy="451" r="58" fill="#F8F5FC" fill-opacity="0.18"/>
+  <circle cx="710" cy="224" r="54" fill="#25172E" stroke="#5D1ABA" stroke-width="6"/>
+  <circle cx="994" cy="352" r="54" fill="#25172E" stroke="#5D1ABA" stroke-width="6"/>
+  <circle cx="1030" cy="631" r="54" fill="#25172E" stroke="#5D1ABA" stroke-width="6"/>
+  <circle cx="674" cy="674" r="54" fill="#25172E" stroke="#5D1ABA" stroke-width="6"/>
+  <path d="M446 411L654 258" stroke="#F8F5FC" stroke-width="8" stroke-linecap="round"/>
+  <path d="M451 446L930 367" stroke="#F8F5FC" stroke-width="8" stroke-linecap="round"/>
+  <path d="M443 493L629 641" stroke="#F8F5FC" stroke-width="8" stroke-linecap="round"/>
+  <path d="M441 497L958 608" stroke="#F8F5FC" stroke-width="8" stroke-linecap="round"/>
+  <rect x="1098" y="162" width="246" height="54" rx="16" fill="#5D1ABA"/>
+  <rect x="1098" y="237" width="324" height="18" rx="9" fill="#F8F5FC" fill-opacity="0.72"/>
+  <rect x="1098" y="272" width="280" height="18" rx="9" fill="#F8F5FC" fill-opacity="0.34"/>
+  <rect x="1098" y="464" width="282" height="54" rx="16" fill="#25172E" stroke="#5D1ABA"/>
+  <rect x="1098" y="540" width="300" height="18" rx="9" fill="#F8F5FC" fill-opacity="0.72"/>
+  <rect x="1098" y="575" width="240" height="18" rx="9" fill="#F8F5FC" fill-opacity="0.34"/>
+  <text x="1118" y="197" fill="#F8F5FC" font-family="Arial, sans-serif" font-size="28" font-weight="700">Learning Map</text>
+  <text x="1118" y="499" fill="#F8F5FC" font-family="Arial, sans-serif" font-size="28" font-weight="700">Adaptive Quiz</text>
+</svg>

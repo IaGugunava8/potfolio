@@ -1,0 +1,15 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#0D0C0D"/>
+  <rect x="80" y="80" width="1440" height="740" rx="36" fill="#171119" stroke="#2F1A49"/>
+  <rect x="174" y="174" width="520" height="552" rx="28" fill="#120F16" stroke="#5D1ABA"/>
+  <rect x="232" y="252" width="152" height="152" rx="22" fill="#5D1ABA"/>
+  <rect x="422" y="252" width="152" height="152" rx="22" fill="#25172E"/>
+  <rect x="232" y="444" width="342" height="28" rx="14" fill="#F8F5FC" fill-opacity="0.8"/>
+  <rect x="232" y="496" width="284" height="22" rx="11" fill="#F8F5FC" fill-opacity="0.32"/>
+  <rect x="834" y="208" width="574" height="98" rx="26" fill="#25172E" stroke="#5D1ABA"/>
+  <rect x="834" y="348" width="574" height="98" rx="26" fill="#25172E" stroke="#5D1ABA"/>
+  <rect x="834" y="488" width="574" height="98" rx="26" fill="#25172E" stroke="#5D1ABA"/>
+  <text x="872" y="266" fill="#F8F5FC" font-family="Arial, sans-serif" font-size="34" font-weight="700">Revenue Overview</text>
+  <text x="872" y="406" fill="#F8F5FC" font-family="Arial, sans-serif" font-size="34" font-weight="700">Campaign Performance</text>
+  <text x="872" y="546" fill="#F8F5FC" font-family="Arial, sans-serif" font-size="34" font-weight="700">Repeat Customer Trends</text>
+</svg>
